@@ -7,14 +7,10 @@
 - JavaScript
 - Git e Github
 
-🧷 [Clique aqui para acessar] ()
+🧷 [Clique aqui para acessar] (https://davijonck.github.io/ProjetoCronometroJS/)
 
-Sing In 
-![image]()
-
-Sing Up 
-![image]()
-
+Preview
+![image](![image](https://user-images.githubusercontent.com/17154364/195892667-a0beb0f8-ffde-406d-ba96-6e48f4a8f68f.png)
 
 ## Contact 🤚 
 
