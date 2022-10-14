@@ -10,7 +10,7 @@
 🧷 Click here to access (https://davijonck.github.io/ProjetoCronometroJS/)
 
 Preview
-(https://user-images.githubusercontent.com/17154364/195892667-a0beb0f8-ffde-406d-ba96-6e48f4a8f68f.png)
+![image](https://user-images.githubusercontent.com/17154364/195894216-adb64294-36a8-453c-8f51-390f7dbbc742.png)
 
 ## Contact 🤚 
 
