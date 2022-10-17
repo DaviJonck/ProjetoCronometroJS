@@ -4,27 +4,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
     font-family: 'Inter';
 }
-
 
 .container {
     background-color: #1a1919;
     width: 100%;
     height: 100vh;
-
     color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-
     padding-top: 155px;
-
     flex-wrap: wrap;
 }
-
 
 .infos {
     display: flex;
@@ -43,7 +37,6 @@
     font-weight: 200;
 }
 
-
 .calculator {
     margin-top: 55px;
 }
@@ -51,7 +44,6 @@
 .buttons {
     display: flex;
     gap: 15px;
-
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -63,44 +55,30 @@
     border-radius: 4px;
     width: 100px;
     height: 25px;
-
     border: none;
     padding: 14px 15px;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     font-size: 16px;
     font-weight: 600;
-
     cursor: pointer;
 }
 
 button:hover {
-
     transform: scale(1.1);
     transition: ease-in-out 0.4s;
 }
-
 
 .container h5 {
     position: absolute;
     bottom: 15px;
     left: 15px;
-
-    font-size: 18x;
-
-    font-family: 'Courier New', Courier, monospace;
-
 }
-
 
 @media (max-width: 600px) {
     .infos h1 {
         font-size: 45px;
         letter-spacing: 4px;
     }
-
-
 }
