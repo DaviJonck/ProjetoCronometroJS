@@ -1,4 +1,4 @@
-# Registration_Form_Responsive
+# Stopwatch / Cronômetro
 
 ## Technologies  🧑‍💻 
 
