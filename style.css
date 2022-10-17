@@ -21,6 +21,8 @@
     text-align: center;
 
     padding-top: 155px;
+
+    flex-wrap: wrap;
 }
 
 
@@ -50,6 +52,9 @@
     display: flex;
     gap: 15px;
 
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     margin-top: 55px;
 }
 
@@ -87,5 +92,15 @@ button:hover {
     font-size: 18x;
 
     font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+@media (max-width: 600px) {
+    .infos h1 {
+        font-size: 45px;
+        letter-spacing: 4px;
+    }
+
 
 }
