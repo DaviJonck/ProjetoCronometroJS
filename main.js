@@ -61,3 +61,31 @@ function changeTimerLogoStart() {
 function changeTimerLogoReset() {
     document.getElementById('icon').classList.replace('fa-hourglass-half', 'fa-hourglass-start')
 }
+
+function date() {
+    const data = new Date()
+    let dataAgora = document.getElementById('date')
+    dataAgora.innerText += ` ${data.toLocaleDateString()} `
+
+}
+
+date()
+
+// darkMode
+
+function darkMode() {
+    let icon = document.querySelector('#icon')
+    console.log(icon);
+    let container = document.querySelector('.container')
+
+    if (icon.classList.contains('fa-moon')) {
+        icon.classList.add('fa-sun', 'fa-regular');
+        container.style.backgroundColor = 'white'
+        container.style.color = '#1a1919'
+
+    } else if (icon.classList.contains('fa-sun')) {
+        icon.classList.add('fa-moon', 'fa-regular')
+        container.style.backgroundColor = '#1a1919'
+        container.style.color = 'white'
+    }
+}

@@ -26,6 +26,7 @@
     gap: 25px;
 }
 
+
 .infos h1 {
     font-size: 85px;
     letter-spacing: 4px;
@@ -72,8 +73,9 @@ button:hover {
 
 .container h5 {
     position: absolute;
-    bottom: 15px;
+    bottom: 0px;
     left: 15px;
+
 }
 
 @media (max-width: 600px) {
@@ -81,4 +83,10 @@ button:hover {
         font-size: 45px;
         letter-spacing: 4px;
     }
+}
+
+.dark-mode-icons {
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-top: -55px;
 }
